@@ -95,7 +95,7 @@ body{
 .toggler{
     width: 45px;
     height: 45px;
-    background: aqua;
+    background-color: royalblue;
     position: fixed;
     right: 10px;
     top: 20px;
