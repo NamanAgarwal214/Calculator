@@ -227,6 +227,7 @@ p{
     }
     .contain{
         margin-right: 20vw;
+        position: fixed;
     }
     select{
         height: 8vw;
