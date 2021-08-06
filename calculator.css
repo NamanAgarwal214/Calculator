@@ -15,16 +15,18 @@ body{
     bottom: 20px;
     background-color: aqua;
     width: 70px;
-    height: 23.25rem;
+    height: 0;
     border-left: 15px solid red;
     border-radius: 20px;
-    transition: width 0.5s;
+    transition: width 0.5s, height 0.5s;
+    transition-delay: 0s, 0.5s;
     overflow-x: hidden;
     z-index: 1000;
 }
 
 .navigate.active{
     width: 280px;
+    height: 23.25rem;
 }
 
 .navigate ul{
