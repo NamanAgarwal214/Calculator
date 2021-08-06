@@ -10,7 +10,7 @@ body{
 }
 .navigate{
     position: fixed;
-    right: 0;
+    right: 10px;
     top: 20px;
     bottom: 20px;
     background-color: aqua;
@@ -87,13 +87,13 @@ body{
 
 .title{
     font-size: 1.5vw;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 
 .toggler{
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     background: aqua;
     position: fixed;
     right: 10px;
@@ -140,23 +140,24 @@ section.main{
 }
 
 legend{
-    /* font-family: 'Poppins', sans-serif; */
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Overpass', sans-serif; */
     font-weight: 900;
-    font-size: 5vw;
+    font-size: 8vw;
     margin: auto;
-    color: navy;
-    -webkit-text-stroke: 4px chartreuse;
+    /* color: navy; */
+    color: chartreuse;
+    -webkit-text-stroke: 4px navy;
     letter-spacing: 0.5rem;
 }
 
 #input{
     border-radius: 25px;
     border: 2px black solid;
-    width: 30vw;
-    height: 7vh;
+    width: 40vw;
+    height: 9vh;
     font-size: larger;
-    font-weight: 600;
+    font-weight: 800;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: whitesmoke;
     padding: 1rem;
@@ -182,7 +183,7 @@ table{
     width: 25vw;
 }
 
-button{
+button.data{
     background-color: chartreuse;
     color: navy;
     font-weight: 700;
@@ -203,6 +204,13 @@ button.eqt{
         width: 37vw;
         height: 5vw;
     }
+    button.data, .eqt{
+        font-size: 3vw;
+    }
+    .title{
+        font-size: 2.5vw;
+        font-weight: 700;
+    }
 }
 
 @media screen and (max-device-width: 930px){
@@ -210,12 +218,16 @@ button.eqt{
         width: 40vw;
         height: 6vw;
     }
-    legend{
+    /* legend{
         -webkit-text-stroke: 2px chartreuse;
-    }
+    } */
     button{
         font-size: 3vw;
         font-weight: 800;
+    }
+    .title{
+        font-size: 2.5vw;
+        font-weight: 700;
     }
 }
 @media screen and (max-device-width: 850px){
@@ -224,8 +236,12 @@ button.eqt{
         height: 7vw;
     }
     legend{
-        -webkit-text-stroke: 2px chartreuse;
-        font-size: 6vw;
+        /* -webkit-text-stroke: 2px chartreuse; */
+        font-size: 8vw;
+    }
+    .title{
+        font-size: 2.5vw;
+        font-weight: 700;
     }
 }
 @media screen and (max-device-width: 760px){
@@ -234,12 +250,16 @@ button.eqt{
         height: 7vw;
     }
     legend{
-        -webkit-text-stroke: 2px chartreuse;
-        font-size: 6vw;
+        /* -webkit-text-stroke: 2px chartreuse; */
+        font-size: 8vw;
     }
-    button{
+    button.data, .eqt{
         font-size: 4vw;
         font-weight: 800;
+    }
+    .title{
+        font-size: 3.5vw;
+        font-weight: 700;
     }
 }
 
@@ -249,8 +269,12 @@ button.eqt{
         height: 8vw;
     }
     legend{
-        -webkit-text-stroke: 3px chartreuse;
-        font-size: 7vw;
+        /* -webkit-text-stroke: 3px chartreuse; */
+        font-size: 8vw;
+    }
+    .title{
+        font-size: 3.5vw;
+        font-weight: 700;
     }
 }
 
@@ -260,28 +284,105 @@ button.eqt{
         height: 9vw;
     }
     legend{
-        -webkit-text-stroke: 3px chartreuse;
-        font-size: 7vw;
+        /* -webkit-text-stroke: 3px chartreuse; */
+        font-size: 8vw;
+    }
+    .title{
+        font-size: 3.5vw;
+        font-weight: 700;
     }
 }
 
 @media screen and (max-device-width: 560px){
     #input{
-        width: 62vw;
+        width: 69vw;
         height: 10vw;
     }
     legend{
-        -webkit-text-stroke: 2px chartreuse;
-        font-size: 7vw;
+        /* -webkit-text-stroke: 2px chartreuse; */
+        font-size: 8vw;
     }
     /* button{
         width: 30px;
     height: 30px;
     } */
+    button.data, .eqt{
+        font-size: 5vw;
+    }
+    .title{
+        font-size: 3.5vw;
+        font-weight: 800;
+    }
+}
+
+@media screen and (max-device-width: 500px){
+    #input{
+        width: 75vw;
+        height: 10vw;
+    }
+    button.data, .eqt{
+        font-size: 6vw;
+    }
+    .title{
+        font-size: 3.5vw;
+        font-weight: 800;
+    }
+}
+
+@media screen and (max-device-width: 460px){
+    #input{
+        width: 79vw;
+        height: 10vw;
+    }
+    button.data, .eqt{
+        font-size: 7vw;
+    }
+    legend{
+        /* -webkit-text-stroke: 2px chartreuse; */
+        font-size: 10vw;
+    }
+    .title{
+        font-size:4.5vw;
+        font-weight: 800;
+    }
+}
+
+@media screen and (max-device-width: 420px){
+    #input{
+        width: 82vw;
+        height: 10vw;
+    }
+    legend{
+        /* -webkit-text-stroke: 2px chartreuse; */
+        font-size: 10vw;
+    }
+    .title{
+        font-size: 4.5vw;
+        font-weight: 800;
+    }
 }
 
 @media screen and (max-device-width: 320px){
-    .data{
-        font-size: 9vw;
+    button.data, .eqt{
+        font-size: 8vw;
+    }
+    #input{
+        width: 95vw;
+        height: 10vw;
+        margin: 2px auto;
+    }
+    legend{
+        /* -webkit-text-stroke: 2px chartreuse; */
+        font-size: 10vw;
+    }
+    .toggler{
+        top: 5px;
+    }
+    .navigate{
+        top: 5px;
+    }
+    .title{
+        font-size: 5.5vw;
+        font-weight: 800;
     }
 }
