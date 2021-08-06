@@ -280,3 +280,8 @@ button.eqt{
     } */
 }
 
+@media screen and (max-device-width: 320px){
+    .data{
+        font-size: 9vw;
+    }
+}

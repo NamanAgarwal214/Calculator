@@ -238,9 +238,6 @@ p{
     .head{
         width: 22.5rem;
     }
-    .contain{
-        margin-right: 11vw;
-    }
     label.len, label.area, label.temperature, label.time{
     font-size: 8vw;
 }
