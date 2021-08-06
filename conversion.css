@@ -12,15 +12,17 @@ section#length, section#area, section#temp, section#Time{
     background-repeat: no-repeat;
     background-size: cover; */
     /* max-height: 100vh; */
-    opacity: 0.85;
+    /* opacity: 0.85; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .contain{
-    background: linear-gradient(to right, #d9a7c7, #fffcdc);
+    /* background: linear-gradient(to right, #d9a7c7, #fffcdc); */
+    background: url('https://images.unsplash.com/photo-1558346648-9757f2fa4474?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80');
     opacity: 1;
+    padding: 8px;
 }
 input#num1, input#num2, input#num3, input#num4{
     width: 20vw;
@@ -33,7 +35,7 @@ label.len, label.area, label.temperature, label.time{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3vw;
     font-weight: 700;
-    color: darkviolet;
+    color: midnightblue;
     margin-right: 1rem;
 }
 
@@ -50,7 +52,7 @@ p{
     font-family: monospace;
     font-size: 3vw;
     font-weight: 700;
-    color: darkorange;
+    color: darkorchid;
     /* color: bisque; */
 }
 button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI{
@@ -76,7 +78,9 @@ button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI{
     font-weight: 800;
     letter-spacing: 1rem;
     font-size: 3rem;
-    background-color: lightgreen;
+    color: azure;
+    background: url('https://images.unsplash.com/photo-1571292098320-997aa03a5d19?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=294&q=80');
+    /* filter: blur(0px); */
     padding: 1rem;
     height: fit-content;
 }

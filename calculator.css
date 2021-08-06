@@ -4,7 +4,8 @@ html{
 body{
     margin: 0;
     padding: 0;
-    background-image: url('https://i.pinimg.com/originals/81/6d/fd/816dfd710806e20aa40a7cd8c76d2e2d.jpg');
+    /* background-image: url('https://i.pinimg.com/originals/81/6d/fd/816dfd710806e20aa40a7cd8c76d2e2d.jpg'); */
+    background-image: url('https://images.unsplash.com/photo-1536566482680-fca31930a0bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -19,7 +20,7 @@ body{
     border-left: 15px solid red;
     border-radius: 20px;
     transition: width 0.5s, height 0.5s;
-    transition-delay: 0s, 0.5s;
+    transition-delay: 0.2s, 0.2s;
     overflow-x: hidden;
     z-index: 1000;
 }
