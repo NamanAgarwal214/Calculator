@@ -2,7 +2,7 @@
 
 
 section#length, section#area, section#temp, section#Time{
-    height: 100vh;
+    height: 95vh;
     width: 100vw;
     padding: 2vw;
     max-width: fit-content;
@@ -101,16 +101,16 @@ button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI{
 }
 
 @media screen and (max-device-width: 790px){
-    .head{
+    /* .head{
         letter-spacing: 0.5rem;
         font-size: 2rem;
-    }
+    } */
 }
 
 @media screen and (max-device-width: 700px){
-    .contain{
+    /* .contain{
         margin-right: 3rem;
-    }
+    } */
     .head{
         font-size: 3rem;
         text-align: left;
@@ -146,30 +146,28 @@ button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI{
 
 @media screen and (max-device-width: 596px){
     .head{
-        font-size: 2rem;
+        font-size: 2.5rem;
         letter-spacing: normal;
-        text-align: justify;
+        /* text-align: justify; */
     }
-    .contain{
+    /* .contain{
         margin-right: 5rem;
 
-    }
+    } */
 }
 
 @media screen and (max-device-width: 581px){
-    .contain{
-        /* width: fit-content; */
-        /* margin-left: 4vw; */
+    /* .contain{
         margin-right: 11vw;
-    }
+    } */
 }
 
 @media screen and (max-device-width: 520px){
-    .contain{
+    /* .contain{
         margin-right: 25vw;
-    }
+    } */
     .head{
-        font-size: 29px;
+        font-size: 2.5rem;
     }
 }
 
@@ -182,8 +180,12 @@ button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI{
 
 @media screen and (max-device-width: 500px){
     .head{
-        font-size: 25px;
+        font-size: 2.5rem;
     }
+    /* label.len, label.area, label.temperature, label.time{
+    font-size: 7vw;
+} */
+
     button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI{
         width: 33vw;
         height: 8vw;
@@ -196,13 +198,19 @@ button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI{
         height: 8vw;
     }
     label.len, label.area, label.temperature, label.time{
-    font-size: 6vw;
+    font-size: 7vw;
 }
+input#num1, input#num2, input#num3, input#num4{
+    width: 42vw;
+    height: 7vw;
+    padding: 0;   
+    font-size: 1.5rem;
+    }
 p{
     font-size: 7vw;
 }
 .head{
-    font-size: 20px;
+    font-size: 2rem;
 }
 }
 
@@ -221,14 +229,14 @@ p{
     width: 45vw;
     height: 8vw;
     padding: 0;   
+    font-size: 1rem;
     }
     .head{
         font-size: 2.4rem;
     }
-    .contain{
+    /* .contain{
         margin-right: 20vw;
-        position: fixed;
-    }
+    } */
     select{
         height: 8vw;
         font-size: 5vw;
@@ -252,10 +260,14 @@ button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI{
         font-size: 7vw;
     }
     input#num1, input#num2, input#num3, input#num4{
-    width: 70vw;
+    width: 60vw;
     height:10vw;
     padding: 0;   
     font-size: 7vw;
+    }
+    .contain{
+        padding: 2px;
+        width: 85vw;
     }
     p{
         font-size: 10vw;
