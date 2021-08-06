@@ -47,6 +47,14 @@ for (item of btn) {
             let a = prompt('Enter value of x: ');
             screen.value = Math.sqrt(a, 2);
         }
+        else if (btnText == '∛') {
+            let a = prompt('Enter value of x: ');
+            screen.value = Math.cbrt(a);
+        }
+        else if (btnText == '+/-') {
+            screenValue += '-';
+            screen.value = screenValue;
+        }
         else if (btnText == 'xy') {
             let a = prompt('Enter value of x: ');
             let b = prompt('Enter value of y: ');
