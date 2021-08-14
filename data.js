@@ -51,25 +51,25 @@ dataSelect.addEventListener('click', function () {
     }
     else if (inp == 'bits(bit)' && out == 'gigabytes(GB)') {
         let a = document.getElementById('num5').value;
-        document.querySelector(".dataD").innerHTML = a * 1.16415322E-10;
+        document.querySelector(".dataD").innerHTML = a * 1.164153220;
         document.querySelector('.in').innerHTML = inp;
         document.querySelector('.goD').innerText = `in ${out} is: `;
     }
     else if (out == 'bits(bit)' && inp == 'gigabytes(GB)') {
         let a = document.getElementById('num5').value;
-        document.querySelector(".dataD").innerHTML = a / 1.16415322E-10;
+        document.querySelector(".dataD").innerHTML = a / 1.164153220;
         document.querySelector('.in').innerText = inp;
         document.querySelector('.goD').innerText = ` in ${out} is: `;
     }
     else if (inp == 'bits(bit)' && out == 'terabytes(TB)') {
         let a = document.getElementById('num5').value;
-        document.querySelector(".dataD").innerHTML = a * 1.13686838E-13;
+        document.querySelector(".dataD").innerHTML = a * 1.136868383;
         document.querySelector('.in').innerHTML = inp;
         document.querySelector('.goD').innerText = `in ${out} is: `;
     }
     else if (out == 'bits(bit)' && inp == 'terabytes(TB)') {
         let a = document.getElementById('num5').value;
-        document.querySelector(".dataD").innerHTML = a / 1.13686838E-13;
+        document.querySelector(".dataD").innerHTML = a / 1.136868383;
         document.querySelector('.in').innerText = inp;
         document.querySelector('.goD').innerText = ` in ${out} is: `;
     }
@@ -87,37 +87,37 @@ dataSelect.addEventListener('click', function () {
     }
     else if (inp == 'bytes(B)' && out == 'megabytes(MB)') {
         let a = document.getElementById('num5').value;
-        document.querySelector(".dataD").innerHTML = a * 9.53674316E-7;
+        document.querySelector(".dataD").innerHTML = a * 9.53674316;
         document.querySelector('.in').innerHTML = inp;
         document.querySelector('.goD').innerText = `in ${out} is: `;
     }
     else if (out == 'bytes(B)' && inp == 'megabytes(MB)') {
         let a = document.getElementById('num5').value;
-        document.querySelector(".dataD").innerHTML = a / 9.53674316E-7;
+        document.querySelector(".dataD").innerHTML = a / 9.53674316;
         document.querySelector('.in').innerText = inp;
         document.querySelector('.goD').innerText = ` in ${out} is: `;
     }
     else if (inp == 'bytes(B)' && out == 'gigabytes(GB)') {
         let a = document.getElementById('num5').value;
-        document.querySelector(".dataD").innerHTML = a * 9.31322575E-10;
+        document.querySelector(".dataD").innerHTML = a * 9.313225750;
         document.querySelector('.in').innerHTML = inp;
         document.querySelector('.goD').innerText = `in ${out} is: `;
     }
     else if (out == 'bytes(B)' && inp == 'gigabytes(GB)') {
         let a = document.getElementById('num5').value;
-        document.querySelector(".dataD").innerHTML = a / 9.31322575E-10;
+        document.querySelector(".dataD").innerHTML = a / 9.313225750;
         document.querySelector('.in').innerText = inp;
         document.querySelector('.goD').innerText = ` in ${out} is: `;
     }
     else if (inp == 'bytes(B)' && out == 'terabytes(TB)') {
         let a = document.getElementById('num5').value;
-        document.querySelector(".dataD").innerHTML = a * 9.09494702E-13;
+        document.querySelector(".dataD").innerHTML = a * 9.094947023;
         document.querySelector('.in').innerHTML = inp;
         document.querySelector('.goD').innerText = `in ${out} is: `;
     }
     else if (out == 'bytes(B)' && inp == 'terabytes(TB)') {
         let a = document.getElementById('num5').value;
-        document.querySelector(".dataD").innerHTML = a / 9.09494702E-13;
+        document.querySelector(".dataD").innerHTML = a / 9.094947023;
         document.querySelector('.in').innerText = inp;
         document.querySelector('.goD').innerText = ` in ${out} is: `;
     }
@@ -135,25 +135,25 @@ dataSelect.addEventListener('click', function () {
     }
     else if (inp == 'kilobytes(KB)' && out == 'gigabytes(GB)') {
         let a = document.getElementById('num5').value;
-        document.querySelector(".dataD").innerHTML = a * 0.953674316E-7;
+        document.querySelector(".dataD").innerHTML = a * 0.953674316;
         document.querySelector('.in').innerHTML = inp;
         document.querySelector('.goD').innerText = `in ${out} is: `;
     }
     else if (out == 'kilobytes(KB)' && inp == 'gigabytes(GB)') {
         let a = document.getElementById('num5').value;
-        document.querySelector(".dataD").innerHTML = a / 0.953674316E-7;
+        document.querySelector(".dataD").innerHTML = a / 0.953674316;
         document.querySelector('.in').innerText = inp;
         document.querySelector('.goD').innerText = ` in ${out} is: `;
     }
     else if (inp == 'kilobytes(KB)' && out == 'terabytes(TB)') {
         let a = document.getElementById('num5').value;
-        document.querySelector(".dataD").innerHTML = a * 9.31322575E-10;
+        document.querySelector(".dataD").innerHTML = a * 9.31322575;
         document.querySelector('.in').innerHTML = inp;
         document.querySelector('.goD').innerText = `in ${out} is: `;
     }
     else if (out == 'kilobytes(KB)' && inp == 'terabytes(TB)') {
         let a = document.getElementById('num5').value;
-        document.querySelector(".dataD").innerHTML = a / 9.31322575E-10;
+        document.querySelector(".dataD").innerHTML = a / 9.31322575;
         document.querySelector('.in').innerText = inp;
         document.querySelector('.goD').innerText = ` in ${out} is: `;
     }
@@ -171,13 +171,13 @@ dataSelect.addEventListener('click', function () {
     }
     else if (inp == 'megabytes(MB)' && out == 'terabytes(TB)') {
         let a = document.getElementById('num5').value;
-        document.querySelector(".dataD").innerHTML = a * 9.53674316E-7;
+        document.querySelector(".dataD").innerHTML = a * 9.53674316;
         document.querySelector('.in').innerHTML = inp;
         document.querySelector('.goD').innerText = `in ${out} is: `;
     }
     else if (out == 'megabytes(MB)' && inp == 'terabytes(TB)') {
         let a = document.getElementById('num5').value;
-        document.querySelector(".dataD").innerHTML = a / 9.53674316E-7;
+        document.querySelector(".dataD").innerHTML = a / 9.53674316;
         document.querySelector('.in').innerText = inp;
         document.querySelector('.goD').innerText = ` in ${out} is: `;
     }
