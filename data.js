@@ -1,5 +1,5 @@
 const dataSelect = document.querySelector('.convD');
-const timeReset = document.querySelector('.resD');
+const dataReset = document.querySelector('.resD');
 dataSelect.addEventListener('click', function () {
     let selectData = document.querySelector('#unitD');
     let toData = document.querySelector('#unitToD');
@@ -195,7 +195,7 @@ dataSelect.addEventListener('click', function () {
     }
 })
 
-timeReset.addEventListener('click', function () {
+dataReset.addEventListener('click', function () {
     document.querySelector(".dataD").innerHTML = '';
     document.getElementById('num5').value = '';
     document.querySelector('.in').innerText = '';
