@@ -1,7 +1,7 @@
 
 
 
-section#length, section#area, section#temp, section#Time{
+section#length, section#area, section#temp, section#Time, section#Data{
     height: 95vh;
     width: 100vw;
     padding: 2vw;
@@ -24,14 +24,14 @@ section#length, section#area, section#temp, section#Time{
     opacity: 1;
     padding: 8px;
 }
-input#num1, input#num2, input#num3, input#num4{
+input#num1, input#num2, input#num3, input#num4, input#num5{
     width: 20vw;
     height: 3vw;
     
 }
 
 
-label.len, label.area, label.temperature, label.time{
+label.len, label.area, label.temperature, label.time, label.data{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3vw;
     font-weight: 700;
@@ -55,7 +55,7 @@ p{
     color: darkorchid;
     /* color: bisque; */
 }
-button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI{
+button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI, .convD, .resD{
     margin: 1vw;
     width: 25vw;
     height: 6vw;
@@ -65,7 +65,7 @@ button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI{
     letter-spacing: 0.5rem;
 }
 
-#num1, #num2, #num3, #num4{
+#num1, #num2, #num3, #num4, #num5{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 800;
     font-size: 2vw;
@@ -86,7 +86,7 @@ button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI{
 }
 
 @media screen and (max-device-width: 810px) {
-    label.len, label.area, label.temperature, label.time{
+    label.len, label.area, label.temperature, label.time, label.data{
         font-size: 5vw;
     }
     .contain{
@@ -99,7 +99,7 @@ button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI{
     p{
         font-size: 4vw;
     }
-    input#num1, input#num2, input#num3, input#num4{
+    input#num1, input#num2, input#num3, input#num4, input#num5{
     width: 22vw;
     height: 5vw;   
     }
@@ -134,14 +134,14 @@ button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI{
         height: 6vw;
         font-size: 4vw;
     }
-    input#num1, input#num2, input#num3, input#num4{
+    input#num1, input#num2, input#num3, input#num4, input#num5{
     width: 28vw;
     height: 6vw;   
     }
     p{
         font-size: 6vw;
     }
-    button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI{
+    button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI, .convD, .resD{
         width: 30vw;
         height: 7vw;
         font-size: 4vw !important;
@@ -191,21 +191,21 @@ button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI{
     font-size: 7vw;
 } */
 
-    button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI{
+    button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI, .convD, .resD{
         width: 33vw;
         height: 8vw;
     }
 }
 
 @media screen and (max-device-width: 448px){
-    button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI{
+    button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI, .convD, .resD{
         width: 33vw;
         height: 8vw;
     }
-    label.len, label.area, label.temperature, label.time{
+    label.len, label.area, label.temperature, label.time, label.data{
     font-size: 7vw;
 }
-input#num1, input#num2, input#num3, input#num4{
+input#num1, input#num2, input#num3, input#num4, input#num5{
     width: 42vw;
     height: 7vw;
     padding: 0;   
@@ -220,17 +220,17 @@ p{
 }
 
 @media screen and (max-device-width: 430px){
-    button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI{
+    button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI, .convD, .resD{
         width: 35vw;
         height: 9vw;
     }}
 
 @media screen and (max-device-width: 378px){
-    button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI{
+    button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI, .convD, .resD{
         width: 35vw;
         height: 9vw;
     }
-    input#num1, input#num2, input#num3, input#num4{
+    input#num1, input#num2, input#num3, input#num4, input#num5{
     width: 45vw;
     height: 8vw;
     padding: 0;   
@@ -252,10 +252,10 @@ p{
     .head{
         width: 22.5rem;
     }
-    label.len, label.area, label.temperature, label.time{
+    label.len, label.area, label.temperature, label.time, label.data{
     font-size: 8vw;
 }
-button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI{
+button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI, .convD, .resD{
         width: 50vw;
         height: 12vw;
         font-size: 6vw !important;
@@ -264,7 +264,7 @@ button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI{
         height: 10vw;
         font-size: 7vw;
     }
-    input#num1, input#num2, input#num3, input#num4{
+    input#num1, input#num2, input#num3, input#num4, input#num5{
     width: 60vw;
     height:10vw;
     padding: 0;   
