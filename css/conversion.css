@@ -1,0 +1,281 @@
+
+
+
+section#length, section#area, section#temp, section#Time, section#Data{
+    height: 95vh;
+    width: 100vw;
+    padding: 2vw;
+    max-width: fit-content;
+    text-align: center;
+    margin: auto;
+    /* background: url('https://www.youcubed.org/wp-content/uploads/2017/03/beautiful-math-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* max-height: 100vh; */
+    /* opacity: 0.85; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contain{
+    /* background: linear-gradient(to right, #d9a7c7, #fffcdc); */
+    background: url('https://images.unsplash.com/photo-1558346648-9757f2fa4474?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80');
+    opacity: 1;
+    padding: 8px;
+}
+input#num1, input#num2, input#num3, input#num4, input#num5{
+    width: 20vw;
+    height: 3vw;
+    
+}
+
+
+label.len, label.area, label.temperature, label.time, label.data{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+    font-weight: 700;
+    color: midnightblue;
+    margin-right: 1rem;
+}
+
+select{
+    /* width: 10vw; */
+    width: fit-content;
+    height: 3vw;
+    /* margin-right: 1.2rem; */
+    font-size: 2vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+    font-family: monospace;
+    font-size: 3vw;
+    font-weight: 700;
+    color: darkorchid;
+    /* color: bisque; */
+}
+button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI, .convD, .resD{
+    margin: 1vw;
+    width: 25vw;
+    height: 6vw;
+    text-align: center;
+    font-size: 3vw !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.5rem;
+}
+
+#num1, #num2, #num3, #num4, #num5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    font-size: 2vw;
+    padding: 1.0rem;
+}
+
+.head{
+    text-align: center;
+    font-family: serif;
+    font-weight: 800;
+    letter-spacing: 1rem;
+    font-size: 3rem;
+    color: azure;
+    background: url('https://images.unsplash.com/photo-1571292098320-997aa03a5d19?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=294&q=80');
+    /* filter: blur(0px); */
+    padding: 1rem;
+    height: fit-content;
+}
+
+@media screen and (max-device-width: 810px) {
+    label.len, label.area, label.temperature, label.time, label.data{
+        font-size: 5vw;
+    }
+    .contain{
+        padding: 2vw;
+    }
+    select{
+        font-size: 3vw;
+        height: 5vw;
+    }
+    p{
+        font-size: 4vw;
+    }
+    input#num1, input#num2, input#num3, input#num4, input#num5{
+    width: 22vw;
+    height: 5vw;   
+    }
+}
+
+@media screen and (max-device-width: 790px){
+    /* .head{
+        letter-spacing: 0.5rem;
+        font-size: 2rem;
+    } */
+}
+
+@media screen and (max-device-width: 700px){
+    /* .contain{
+        margin-right: 3rem;
+    } */
+    .head{
+        font-size: 3rem;
+        text-align: left;
+    }
+}
+@media screen and (max-device-width: 645px){
+    .head{
+        font-size: 3.5rem;
+        letter-spacing: 0.5rem;
+        text-align: left;
+    }
+    /* label.len, label.area, label.temperature, label.time{
+        font-size: 5.5vw;
+    } */
+    select{
+        height: 6vw;
+        font-size: 4vw;
+    }
+    input#num1, input#num2, input#num3, input#num4, input#num5{
+    width: 28vw;
+    height: 6vw;   
+    }
+    p{
+        font-size: 6vw;
+    }
+    button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI, .convD, .resD{
+        width: 30vw;
+        height: 7vw;
+        font-size: 4vw !important;
+    }
+
+}
+
+@media screen and (max-device-width: 596px){
+    .head{
+        font-size: 2.5rem;
+        letter-spacing: normal;
+        /* text-align: justify; */
+    }
+    /* .contain{
+        margin-right: 5rem;
+
+    } */
+}
+
+@media screen and (max-device-width: 581px){
+    /* .contain{
+        margin-right: 11vw;
+    } */
+}
+
+@media screen and (max-device-width: 520px){
+    /* .contain{
+        margin-right: 25vw;
+    } */
+    .head{
+        font-size: 2.5rem;
+    }
+}
+
+/* @media screen and (max-device-width: 320px){
+    input#num1, input#num2, input#num3, input#num4{
+    width: 28vw;
+    height: 6vw;   
+    }
+} */
+
+@media screen and (max-device-width: 500px){
+    .head{
+        font-size: 2.5rem;
+    }
+    /* label.len, label.area, label.temperature, label.time{
+    font-size: 7vw;
+} */
+
+    button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI, .convD, .resD{
+        width: 33vw;
+        height: 8vw;
+    }
+}
+
+@media screen and (max-device-width: 448px){
+    button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI, .convD, .resD{
+        width: 33vw;
+        height: 8vw;
+    }
+    label.len, label.area, label.temperature, label.time, label.data{
+    font-size: 7vw;
+}
+input#num1, input#num2, input#num3, input#num4, input#num5{
+    width: 42vw;
+    height: 7vw;
+    padding: 0;   
+    font-size: 1.5rem;
+    }
+p{
+    font-size: 7vw;
+}
+.head{
+    font-size: 2rem;
+}
+}
+
+@media screen and (max-device-width: 430px){
+    button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI, .convD, .resD{
+        width: 35vw;
+        height: 9vw;
+    }}
+
+@media screen and (max-device-width: 378px){
+    button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI, .convD, .resD{
+        width: 35vw;
+        height: 9vw;
+    }
+    input#num1, input#num2, input#num3, input#num4, input#num5{
+    width: 45vw;
+    height: 8vw;
+    padding: 0;   
+    font-size: 1rem;
+    }
+    .head{
+        font-size: 2.4rem;
+    }
+    /* .contain{
+        margin-right: 20vw;
+    } */
+    select{
+        height: 8vw;
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-device-width: 360px){
+    .head{
+        width: 22.5rem;
+    }
+    label.len, label.area, label.temperature, label.time, label.data{
+    font-size: 8vw;
+}
+button.conv, .res, .convA, .resA, .convT, .resT, .convI, .resI, .convD, .resD{
+        width: 50vw;
+        height: 12vw;
+        font-size: 6vw !important;
+    }
+    select{
+        height: 10vw;
+        font-size: 7vw;
+    }
+    input#num1, input#num2, input#num3, input#num4, input#num5{
+    width: 60vw;
+    height:10vw;
+    padding: 0;   
+    font-size: 7vw;
+    }
+    .contain{
+        padding: 2px;
+        width: 85vw;
+    }
+    p{
+        font-size: 10vw;
+    }
+
+}
