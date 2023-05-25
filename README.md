@@ -23,12 +23,12 @@ Convert measurements between different units effortlessly. Whether you need to c
 # Screenshots
 
 <p float="left">
-<img src="./asset/1.png" width="280" height="520">
-<img src="./asset/2.png" width="280" height="520">
-<img src="./asset/3.png" width="280" height="520">
-<img src="./asset/4.png" width="280" height="520">
-<img src="./asset/5.png" width="280" height="520">
-<img src="./asset/6.png" width="280" height="520">
+<img src="./asset/1.png" width="600" height="520">
+<img src="./asset/2.png" width="600" height="520">
+<img src="./asset/3.png" width="600" height="520">
+<img src="./asset/4.png" width="600" height="520">
+<img src="./asset/5.png" width="600" height="520">
+<img src="./asset/6.png" width="600" height="520">
 </p>
 
 # Technologies Used
